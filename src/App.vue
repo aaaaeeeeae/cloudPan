@@ -1,11 +1,20 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+// import pan from './pages/pan.vue'
+import signup from './pages/signUp.vue'
+
 </script>
 
 <template>
-  <HelloWorld/>
+  <div class="content">
+    <!-- <pan></pan> -->
+    <signup></signup>
+  </div>
 </template>
 
-<style>
-
+<style lang="less">
+.content{
+  height: 100%;
+  margin: 0;
+  
+}
 </style>
